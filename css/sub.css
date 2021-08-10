@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: YuMincho, 'Yu Mincho', serif;
+}
+
+
+/* 会社ロゴ */
+.Logo img {
+  position: fixed;
+  top: 7rem;
+  left: 9rem;
+  width: 5rem;
+}
+
+/* メニュー */
+.aside {
+  position: fixed;
+  top: 7rem;
+  right: 5rem;
+  text-align: left;
+}
+
+.aside ul li {
+  padding-bottom: 15px;
+}
+
+.aside ul li a {
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.aside ul li a:hover{
+  opacity: 0.2;
+}
+
+/* メニュー（Law3.html用） */
+.aside_new {
+  position: fixed;
+  top: 7rem;
+  right: 5rem;
+  text-align: left;
+}
+
+.aside_new ul li {
+  padding-bottom: 15px;
+}
+
+.aside_new ul li a {
+  color: black;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.aside_new ul li a:hover{
+  opacity: 0.2;
+}
+
+/* 本文 */
+main {
+  width: 40%;
+  margin: auto;
+}
+
+.articleBox {
+  margin-top: 5rem;
+}
+
+.articleBox h1 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: right;
+}
+
+.articleBox h2 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.textBox {
+  line-height: 2rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.caution {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-align: right;
+  margin-top: 5rem;
+}
+
+.textPicture {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.textPicture img {
+  width: 100%;
+}
+
+
+/* フッター */
+footer {
+  background-color: #015287;
+  padding: 5rem;
+  max-width: 100%;
+  margin-top: 20rem;
+}
+
+.footerManu {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.footerManu ul{
+  margin-bottom: 1rem;
+}
+
+.footerManu li {
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  padding-right: 1.5rem;
+  color: white;
+}
+
+.footerManu a{
+  color: white;
+}
+
+.footerManu a:hover{
+  opacity: 0.2;
+}
+
+.footerManu li:last-child{
+  padding-right: 0;
+}
+
+.footerLogo {
+  text-align: center;
+}
+
+.footerLogo img {
+  width: 20rem;
+}
+
+.footerCopylight p {
+  color: white;
+  margin-top: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.5rem;
+  text-align: center;
+}
