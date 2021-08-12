@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
 }
 
 /* 会社ロゴ */
@@ -245,7 +245,6 @@ footer {
 @media screen and (max-width: 1201px) {
 
   /* 959px以下に適用されるCSS（タブレット用） */
-
   .TopMovie video {
     border-radius: 0 5rem;
     width: 80%;
@@ -278,13 +277,16 @@ footer {
     height: 20rem;
     border-radius: 0 4rem;
   }
+
+  footer {
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
-
-  .Logo2 img{
+  .Logo2 img {
     width: 80%;
   }
 
