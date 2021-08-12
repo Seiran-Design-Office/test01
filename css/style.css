@@ -245,6 +245,10 @@ footer {
 @media screen and (max-width: 1201px) {
 
   /* 959px以下に適用されるCSS（タブレット用） */
+  body {
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  }
+
   .TopMovie video {
     border-radius: 0 5rem;
     width: 80%;
@@ -266,7 +270,7 @@ footer {
   }
 
   main {
-    width: 80%;
+    width: 90%;
   }
 
   .articleBox {
