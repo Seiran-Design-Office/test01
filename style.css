@@ -290,6 +290,10 @@ footer {
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
+  main {
+    width: 90%;
+  }
+
   .Logo2 img {
     width: 80%;
   }
