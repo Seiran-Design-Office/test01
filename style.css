@@ -96,7 +96,7 @@ header {
 
 /* 本文 */
 main {
-  max-width: 50%;
+  width: 50%;
   margin: auto;
 }
 
@@ -270,7 +270,7 @@ footer {
   }
 
   main {
-    width: 80%;
+    width: 85%;
   }
 
   .articleBox {
