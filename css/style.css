@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: YuMincho, 'Yu Mincho', serif;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 /* 会社ロゴ */
@@ -85,12 +85,13 @@ header {
   text-align: center;
 }
 
-.TopMovie iframe {
+.TopMovie video {
   border-radius: 0 10rem;
-  width: 70rem;
-  height: 44rem;
+  width: 60%;
+  height: auto;
   max-width: 100%;
   margin-top: 7rem;
+  object-fit: cover;
 }
 
 /* 本文 */
@@ -244,6 +245,12 @@ footer {
 @media screen and (max-width: 1201px) {
 
   /* 959px以下に適用されるCSS（タブレット用） */
+
+  .TopMovie video {
+    border-radius: 0 5rem;
+    width: 80%;
+  }
+
   .Logo2 img {
     display: block;
     margin: auto;
@@ -260,7 +267,7 @@ footer {
   }
 
   main {
-    max-width: 80%;
+    width: 80%;
   }
 
   .articleBox {
