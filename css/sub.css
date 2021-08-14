@@ -253,6 +253,10 @@ footer {
     font-size: 1.5rem;
   }
 
+  .articleBox h2{
+    font-size: 1.5rem;
+  }
+
   .textBox p{
     font-size: 0.8rem;
     line-height: 1.2rem;
@@ -260,6 +264,7 @@ footer {
   }
 
   .textPicture img {
+
     border-radius: 0 3rem;
   }
 

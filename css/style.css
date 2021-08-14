@@ -13,6 +13,54 @@ body {
   font-family: dnp-shuei-mincho-pr6n, sans-serif;
 }
 
+/* 上へ戻るボタン */
+#page_top{
+  width: 7rem;
+  height: 7rem;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a:hover{
+  opacity: 0.3;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
 /* 会社ロゴ */
 .Logo img {
   display: block;
@@ -244,6 +292,10 @@ footer {
 @media screen and (max-width: 1201px) {
 
   /* 959px以下に適用されるCSS（タブレット用） */
+  header {
+    min-height: auto;
+  }
+
   .TopMovie video {
     border-radius: 0 5rem;
     width: 80%;
@@ -285,10 +337,6 @@ footer {
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
-  header {
-    min-height: auto;
-  }
-
   .TopMovie video {
     width: 100%;
   }
@@ -305,11 +353,11 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .articleBox h1{
+  .articleBox h1 {
     font-size: 1.5rem;
   }
 
-  .textBox p{
+  .textBox p {
     font-size: 0.8rem;
     line-height: 1.2rem;
     letter-spacing: 0.2rem;
