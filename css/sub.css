@@ -203,6 +203,16 @@ footer {
   }
 
   .articleBox {
+    margin-bottom: 10rem;
+  }
+
+  .caution {
+    font-size: 0.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+  }
+
+  .textPicture {
     margin-top: 5rem;
   }
 
@@ -236,7 +246,7 @@ footer {
   }
 
   .articleBox {
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
   }
 
   .articleBox h1{
