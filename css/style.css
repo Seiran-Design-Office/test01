@@ -88,7 +88,6 @@ header {
 .TopMovie video {
   border-radius: 0 10rem;
   width: 60%;
-  height: auto;
   max-width: 100%;
   margin-top: 7rem;
   object-fit: cover;
@@ -96,7 +95,7 @@ header {
 
 /* 本文 */
 main {
-  max-width: 50%;
+  width: 50%;
   margin: auto;
 }
 
@@ -270,7 +269,7 @@ footer {
   }
 
   main {
-    width: 90%;
+    width: 85%;
   }
 
   .articleBox {
@@ -290,6 +289,10 @@ footer {
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
+  main {
+    width: 90%;
+  }
+
   .Logo2 img {
     width: 80%;
   }
