@@ -203,22 +203,30 @@ footer {
   }
 
   .articleBox {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .textPicture img {
-    height: 20rem;
+    height: 85%;
     border-radius: 0 4rem;
   }
 
   footer {
-    padding: 2rem;
+    padding: 4rem 2rem;
   }
 }
 
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
+  header {
+    min-height: auto;
+  }
+
+  .TopMovie video {
+    width: 100%;
+  }
+
   main {
     width: 90%;
   }
@@ -227,8 +235,21 @@ footer {
     width: 80%;
   }
 
+  .articleBox {
+    margin-bottom: 1rem;
+  }
+
+  .articleBox h1{
+    font-size: 1.5rem;
+  }
+
+  .textBox p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+
   .textPicture img {
-    height: 10rem;
     border-radius: 0 3rem;
   }
 
