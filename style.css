@@ -88,7 +88,6 @@ header {
 .TopMovie video {
   border-radius: 0 10rem;
   width: 60%;
-  height: auto;
   max-width: 100%;
   margin-top: 7rem;
   object-fit: cover;
@@ -283,7 +282,7 @@ footer {
   }
 
   footer {
-    padding: 2rem;
+    padding: 4rem 2rem;
   }
 }
 
