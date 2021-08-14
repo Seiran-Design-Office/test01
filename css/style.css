@@ -100,7 +100,7 @@ main {
 }
 
 .articleBox {
-  margin-top: 20rem;
+  margin-bottom: 20rem;
 }
 
 .articleBox h1 {
@@ -244,10 +244,6 @@ footer {
 @media screen and (max-width: 1201px) {
 
   /* 959px以下に適用されるCSS（タブレット用） */
-  body {
-    font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  }
-
   .TopMovie video {
     border-radius: 0 5rem;
     width: 80%;
@@ -273,7 +269,7 @@ footer {
   }
 
   .articleBox {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .textPicture img {
@@ -289,12 +285,34 @@ footer {
 @media screen and (max-width: 480px) {
 
   /* 480px以下に適用されるCSS（スマホ用） */
+  header {
+    min-height: auto;
+  }
+
+  .TopMovie video {
+    width: 100%;
+  }
+
   main {
     width: 90%;
   }
 
   .Logo2 img {
     width: 80%;
+  }
+
+  .articleBox {
+    margin-bottom: 1rem;
+  }
+
+  .articleBox h1{
+    font-size: 1.5rem;
+  }
+
+  .textBox p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.2rem;
   }
 
   .textPicture img {
